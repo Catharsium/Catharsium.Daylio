@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <DebugType>Embedded</DebugType>
+    <AssemblyName>Catharsium.Daylio</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
