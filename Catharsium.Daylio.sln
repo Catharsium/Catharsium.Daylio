@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Daylio.Ui.Console", "Catharsium.Daylio.Ui.Console\Catharsium.Daylio.Ui.Console.csproj", "{AEB71242-4DD1-4F50-8975-C4E57FD248D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Daylio.Ui.Console.Tests", "Catharsium.Daylio.Ui.Console.Tests\Catharsium.Daylio.Ui.Console.Tests.csproj", "{B87F76B7-80A3-4BDB-8F08-A1FAFF80D83A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Daylio.Core.Logic", "Catharsium.Daylio.Core.Logic\Catharsium.Daylio.Core.Logic.csproj", "{6321B46C-6199-4645-93B1-1160B5CB0F91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Daylio.Core.Interfaces", "Catharsium.Daylio.Core.Interfaces\Catharsium.Daylio.Core.Interfaces.csproj", "{E1A0A942-B45B-483B-82B1-0FFB90125568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Daylio.Core.Logic.Tests", "Catharsium.Daylio.Core.Logic.Tests\Catharsium.Daylio.Core.Logic.Tests.csproj", "{C1661F7F-E064-48F1-8742-AD4701EC867B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Daylio.Core.Interfaces.Tests", "Catharsium.Daylio.Core.Interfaces.Tests\Catharsium.Daylio.Core.Interfaces.Tests.csproj", "{B3D26932-D5D9-4D74-AF99-B96D367D32A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution items", "_Solution items", "{5611C98B-B13A-46BA-BF88-084B36816619}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB71242-4DD1-4F50-8975-C4E57FD248D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB71242-4DD1-4F50-8975-C4E57FD248D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB71242-4DD1-4F50-8975-C4E57FD248D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB71242-4DD1-4F50-8975-C4E57FD248D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87F76B7-80A3-4BDB-8F08-A1FAFF80D83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87F76B7-80A3-4BDB-8F08-A1FAFF80D83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87F76B7-80A3-4BDB-8F08-A1FAFF80D83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87F76B7-80A3-4BDB-8F08-A1FAFF80D83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6321B46C-6199-4645-93B1-1160B5CB0F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6321B46C-6199-4645-93B1-1160B5CB0F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6321B46C-6199-4645-93B1-1160B5CB0F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6321B46C-6199-4645-93B1-1160B5CB0F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A0A942-B45B-483B-82B1-0FFB90125568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A0A942-B45B-483B-82B1-0FFB90125568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A0A942-B45B-483B-82B1-0FFB90125568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A0A942-B45B-483B-82B1-0FFB90125568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1661F7F-E064-48F1-8742-AD4701EC867B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1661F7F-E064-48F1-8742-AD4701EC867B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1661F7F-E064-48F1-8742-AD4701EC867B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1661F7F-E064-48F1-8742-AD4701EC867B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D26932-D5D9-4D74-AF99-B96D367D32A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D26932-D5D9-4D74-AF99-B96D367D32A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D26932-D5D9-4D74-AF99-B96D367D32A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D26932-D5D9-4D74-AF99-B96D367D32A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24FCD359-23FB-47B0-841F-0CC03BF01763}
+	EndGlobalSection
+EndGlobal
